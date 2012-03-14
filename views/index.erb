@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="/css/style.css" media="screen" />
+		<title><%= Navigation.instance.pageTitle %></title>
+	</head>
+	
+	<body>
+		<%= erb :header %>
+		<!--div class="postIt"-->
+			<a href="/aboutme/cv" id="pi_a_cv"><img src="/images/PageAccueil/postit_rose_cv.png" alt="PostItCV"/></a>
+			<a href="/aboutme/experience" id="pi_a_experience">
+				<img src="/images/PageAccueil/postit_bleu_experience_professionelle.png" alt="PostItExp&eacute;rienceProfessionelle">
+			</a>
+			<a href="/aboutme/personnality" id="pi_a_personnality"><img src="/images/PageAccueil/postit_jaune_personnalite.png" alt="PostItJaune"></a>
+			<a href="/aboutme/skills" id="pi_a_skills"><img src="/images/PageAccueil/postit_vert_competences.png" alt="PostItVert"></a>
+			<a href="/aboutme/expectations" id="pi_a_expectations"><img src="/images/PageAccueil/postit_vert_attentes.png" alt="PostItAttentes"/></a>
+			<a href="/aboutme/motivation" id="pi_a_motivation"><img src="/images/PageAccueil/postit_jaune_motivation_sociopro.png" alt="PostItMotivation"/></a>
+			<a href="/aboutme/likes" id="pi_a_likes"><img src="/images/PageAccueil/postit_rose2_loisirs.png" alt="PostItLoisirs"/></a>
+		<!--/div-->
+		<%= erb :footer %>
+	</body>
+</html>

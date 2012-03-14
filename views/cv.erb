@@ -1,0 +1,23 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+	<head>
+		<link rel="stylesheet" type="text/css" href="/css/style.css" media="screen" />
+		<title><%=  Navigation.instance.pageTitle %></title>
+	</head>
+	
+	<body>
+		<%= erb :header %>
+
+		<a href='/aboutme/cv/download' id="pi_cv_pdf"><img src="/images/PageCV/postit_blanc_taille_pdf.png" alt="T&eacute;l&eacute;charger au format PDF"/></a>
+		<!--iframe src="http://docs.google.com/gview?url=http://pixelized.fr/akara/cv.pdf&embedded=true" style="width:600px; height:500px;" frameborder="0"/-->
+		<div class="content">	
+			<img src="/images/PageCV/cv_parchemin.png" alt="CurriculumVitae" />
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+		</div>
+		<%= erb :footer %>
+	</body>
+</html>

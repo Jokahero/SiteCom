@@ -1,0 +1,103 @@
+html {
+	background-image:url('images/background.jpg');
+}
+
+body {
+	margin:0 auto;
+	font-family: Arial;
+}
+
+.content {
+	width:100%;
+	text-align:center;	
+}
+
+.hidden {
+	visibility:hidden;
+}
+
+#mainMenu {
+	float:left;
+	width:220px;
+	height:287px;
+	background-image:url('images/menu_dimensioned.png');
+}
+
+#mainMenu h3 {
+	text-align:center;
+	padding-top:20px;
+}
+
+#mainMenu ul {
+}
+
+#header {
+	text-align:center;
+}
+
+#header h1 {
+	text-align:center;
+}
+
+#footer {
+	position:fixed;
+	width:100%;
+	height:170;
+	background-repeat:repeat-x;
+	bottom:0;
+	background-image:url('images/herbe.png');
+}
+
+#acceuil {
+	position:absolute;
+	top:10;
+	left:10;
+}
+
+#pi_a_cv {
+	position:absolute;
+	top:100;
+	left:200;
+}
+
+#pi_a_experience {
+	position:absolute;
+	top:300;
+	left:75;
+}
+
+#pi_a_skills {
+	position:absolute;
+	top:450;
+	right:150;
+}
+
+#pi_a_expectations {
+	position:absolute;
+	bottom:175;
+	left:250;
+}
+
+#pi_a_personnality {
+	position:absolute;
+	top:250;
+	left:400;
+}
+
+#pi_a_likes {
+	position:absolute;
+	top:200;
+	right:175;
+}
+
+#pi_a_motivation {
+	position:absolute;
+	top:400;
+	right:425;
+}
+
+#pi_cv_pdf {
+	position:absolute;
+	top:100;
+	left:20;
+}
