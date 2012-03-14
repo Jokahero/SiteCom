@@ -4,5 +4,5 @@ require 'singleton'
 
 class Navigation 
 	include Singleton
-	attr_accessor :pageTitle, :headerTitle
+	attr_accessor :pageTitle, :headerTitle, :titleImgSrc
 end

@@ -48,6 +48,7 @@ get '/aboutme/:option/?' do |opt|
 		Navigation.instance.pageTitle = "Personnalité"
 		erb :personnality
 	elsif opt =~ /^skills\/?$/
+		Navigation.instance.titleImgSrc = "/images/PageCompetences/title_competences_tag.png"
 		Navigation.instance.headerTitle = "Mes compétences"
 		Navigation.instance.pageTitle = "Compétences"
 		erb :skills
