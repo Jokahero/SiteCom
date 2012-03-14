@@ -101,3 +101,29 @@ body {
 	top:100;
 	left:20;
 }
+
+#f_c_langages {
+	position:absolute;
+	top:100;
+	left:35;
+	z-index:0;
+}
+
+#pi_c_autres {
+	position:absolute;
+	top:150;
+	left:350;
+	z-index:1;
+}
+
+#pi_c_frameworks {
+	position:absolute;
+	top:10;
+	right:20;
+}
+
+#pi_c_langues {
+	position:absolute;
+	bottom:100;
+	right:200;
+}
