@@ -66,7 +66,7 @@ get '/aboutme/:option/?' do |opt|
 		Navigation.instance.headerTitle = "Mes loisirs"
 		Navigation.instance.pageTitle = "Loisirs"
 		erb :likes
-	elsif opt =~ /^motivation\/$/
+	elsif opt =~ /^motivation\/?$/
 		Navigation.instance.titleImgSrc = "/images/PageMotivation/title_motivation_tag.png"
 		Navigation.instance.headerTitle = "Ma motivation socio-professionelle"
 		Navigation.instance.pageTitle = "Motivation"
