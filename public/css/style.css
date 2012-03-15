@@ -132,3 +132,45 @@ body {
 	bottom:100;
 	right:200;
 }
+
+#f_experience_stagelic {
+	position:absolute;
+	top:100;
+	right:20;
+}
+
+#pi_experience_stagedut {
+	position:absolute;
+	top:90;
+	left:20;
+}
+
+#pi_experience_ete {
+	position:absolute;
+	top:400;
+	left:300;
+}
+
+#pi_personnalite_feneant {
+	position:absolute;
+	bottom:20;
+	right:20;
+}
+
+#pi_personnalite_honnete {
+	position:absolute;
+	top:200;
+	left:400;
+}
+
+#pi_personnalite_calme {
+	position:absolute;
+	bottom:20;
+	left:50;
+}
+
+#pi_personnalite_depensier {
+	position:absolute;
+	top:100;
+	right:10;
+}
