@@ -174,3 +174,68 @@ body {
 	top:100;
 	right:10;
 }
+
+#pa_work_in_progress {
+	position:absolute;
+	top:200;
+	left:400;
+}
+#ph_skis {
+	position:absolute;
+	top:40;
+	right:200;
+}
+
+#ph_moi_ski {
+	position:absolute;
+	top:400;
+	right:40;
+}
+
+#ph_montagne {
+	position:absolute;
+	top:20;
+	right:20;
+}
+
+#ph_home_studio {
+	position:absolute;
+	top:100;
+	left:350;
+}
+
+#img_me_gusta {
+	position:absolute;
+	top:30;
+	right:50;
+}
+
+#pi_musique {
+	position:absolute;
+	top:100;
+	left:30;
+}
+
+#pi_livres {
+	position:absolute;
+	top:450;
+	left:10;
+}
+
+#pi_sports {
+	position:absolute;
+	top:350;
+	right:300;
+}
+
+#pi_todo_ixelized {
+	position:absolute;
+	top:100;
+	left:20;
+}
+
+#pipix {
+	position:absolute;
+	top:100;
+	left:450;
+}
